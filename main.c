@@ -8,5 +8,6 @@ mainCRTStartup(void)
 
     WriteFile(stdout, msg, sizeof(msg), (DWORD[]){0}, NULL);
     ExitProcess(0);
+    return 0;
 }
 
